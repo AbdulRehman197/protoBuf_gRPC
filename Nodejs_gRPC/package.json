@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13"
+  },
+
+  "scripts": {
+    "server": "node server.js",
+    "proto:gen": "./proto-gen.sh",
+    "client": "node client.js"
+  },
+  "name": "nodejs_grpc",
+  "version": "1.0.0",
+  "main": "client.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
